@@ -1,0 +1,37 @@
+body {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+  background:url(background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-transform: uppercase;
+  object-position: center;
+}
+.container {
+  height: 30%;
+  width: 40%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  backdrop-filter: blur(30px);
+}
+.time ,h1{
+  font-size: 100px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.time-container {
+  box-sizing: border-box;
+  padding: 0;
+}
+.time-container span {
+  font-size: 20px;
+  margin-left: 10px;
+}
